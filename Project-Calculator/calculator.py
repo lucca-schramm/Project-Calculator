@@ -8,8 +8,9 @@ colour4= "#8a8484" #gray
 
 calculator = Tk()
 calculator.title("Simple Calculator")
-calculator.geometry("297x343")
+calculator.geometry("299x343")
 calculator.config(bg=colour2)
+calculator.resizable(False, False)
 values = ''
 
 text_value = StringVar()
